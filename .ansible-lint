@@ -1,0 +1,11 @@
+---
+exclude_paths:
+  - .github
+  - changelogs
+  - controller/group_vars/dev/configure_connection_controller_credentials.yml
+  - controller/orgs_vars/AutomationLab/env/dev/controller_credentials.d/controller_credentials_scm.yml
+  - controller/orgs_vars/AutomationLab/env/dev/controller_credentials.d/controller_credentials_vault.yml
+skip_list:
+  - var-naming[no-role-prefix]
+  - yaml[comments]
+...
